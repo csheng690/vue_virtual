@@ -4,6 +4,7 @@
     <div class="according">
       <div class="according_min">
         <h4 class="time">当前时间：{{ date }}</h4>
+        <h3>前端代码：<a href="https://csheng690.github.io/vue_virtual/">https://csheng690.github.io/vue_virtual/</a></h3>
         <p class="text_value">当前按下按钮：{{ text }}</p>
         <h3 class="rod_value">推杆位置：{{ value }}%</h3>
         <h3 class="rotate_value">旋转角度：{{ rotateNum }}°</h3>
@@ -714,7 +715,7 @@ h2 {
   .text_value {
     display: block;
     width: 250px;
-    height: 80px;
+    height: 60px;
     line-height: 80px;
 
     margin: 0 auto;
